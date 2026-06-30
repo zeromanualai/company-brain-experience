@@ -1,0 +1,58 @@
+[
+  {
+    "id": "meeting",
+    "title": "The Meeting Problem",
+    "icon": "🗓️",
+    "headline": "Decisions are made. Context disappears.",
+    "narrative": "A critical decision is made in a meeting. Three months later, nobody remembers why. The person who made it has left. The context is gone. The new team reverses it and makes the same mistake.",
+    "cost": "Organizations spend 30% of their time re-litigating decisions that were already made.",
+    "audience_variants": {
+      "executive": "Estimated cost: $500K+ per year in repeated decision cycles for a 100-person company.",
+      "product": "Every product decision without preserved reasoning becomes a future debate — roadmap rationale, scope cuts, and tradeoffs all get re-argued from scratch.",
+      "engineer": "Root cause: no structured capture of decision context, alternatives considered, and reasoning.",
+      "new_hire": "You've been in a meeting where someone said 'why did we do it this way?' and nobody knew."
+    }
+  },
+  {
+    "id": "commitment",
+    "title": "The Commitment Problem",
+    "icon": "🤝",
+    "headline": "Promises made. Promises forgotten.",
+    "narrative": "Someone commits to delivering something in an email thread. It never gets tracked as a commitment. Nobody follows up. The deadline passes. The client is disappointed. Nobody knows it was ever promised.",
+    "cost": "Broken commitments erode trust faster than any other organizational failure.",
+    "audience_variants": {
+      "executive": "This is the number one source of client churn that doesn't show up in CRM data.",
+      "product": "Every feature promise made in a sales call or support thread that never reaches the roadmap is this same failure.",
+      "engineer": "Root cause: commitments live in natural language across communication channels with no structured extraction.",
+      "new_hire": "Every organization has a graveyard of things that were promised and never happened."
+    }
+  },
+  {
+    "id": "context",
+    "title": "The Context Problem",
+    "icon": "🤖",
+    "headline": "AI agents work blind.",
+    "narrative": "You ask an AI agent to prepare a renewal proposal for a client. The agent has no idea about the relationship history, the risk that was flagged last week, the commitment made in the last call, or the internal concerns raised in Slack. It writes a generic proposal. The client notices.",
+    "cost": "AI agents without organizational context create more risk than they eliminate.",
+    "audience_variants": {
+      "executive": "This is why most AI copilot pilots fail — the AI is smart but blind to your organizational reality.",
+      "product": "Users lose trust in AI features the moment a generic answer reveals the system doesn't actually know their context.",
+      "engineer": "Root cause: no governed memory layer that AI systems can query with provenance and confidence.",
+      "new_hire": "Imagine starting a job where nobody tells you anything about the client you're calling."
+    }
+  },
+  {
+    "id": "repetition",
+    "title": "The Repetition Problem",
+    "icon": "🔄",
+    "headline": "The same mistake. Three times.",
+    "narrative": "A critical process failure happens. It gets resolved. Six months later it happens again. Different team. Same root cause. Nobody knew it had happened before. No lesson was ever captured. No pattern was ever noticed.",
+    "cost": "Organizations that don't learn are organizations that can't scale.",
+    "audience_variants": {
+      "executive": "Every repeated failure is a failure of organizational memory, not individual competence.",
+      "product": "The same usability complaint resurfaces release after release because nobody connected it to last year's identical complaint.",
+      "engineer": "Root cause: no learning memory that connects outcomes to patterns across independent events.",
+      "new_hire": "This is why 'institutional knowledge' matters — and why it shouldn't live only in people's heads."
+    }
+  }
+]

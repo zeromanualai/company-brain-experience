@@ -1,0 +1,109 @@
+[
+  {
+    "id": "architecture_vision",
+    "title": "Architecture & Vision",
+    "version": "v2.2",
+    "status": "Canonical Team Document",
+    "filename": "COMPANY_BRAIN_Architecture_&_Vision_v2.2.md",
+    "one_sentence": "Defines the seven-layer pipeline, the ten atomic primitives of organizational reality, and the Knowledge Object representation layer.",
+    "what_it_defines": [
+      "Seven pipeline layers (Capture → Understand → Memory → Intelligence → Execution → Exposure → Evolution)",
+      "Ten atomic primitives of organizational reality",
+      "Primitive Knowledge Objects",
+      "Core principles",
+      "Cross-cutting supporting systems (Trust, Consultant, Workspace)"
+    ],
+    "key_concepts": ["capture_layer", "understanding_layer", "knowledge_objects", "atomic_primitives", "memory_layer", "intelligence_layer", "execution_layer", "exposure_layer", "evolution_layer"],
+    "read_this_if": "You want to understand the full architecture and why it's structured the way it is."
+  },
+  {
+    "id": "memory_model",
+    "title": "Memory Model",
+    "version": "v1.2",
+    "status": "Canonical Conceptual Model",
+    "filename": "Company_Brain_Memory_Model_v1.2.md",
+    "one_sentence": "Defines the five memory stores, write governance, conflict resolution, provenance, and the Commitment lifecycle.",
+    "what_it_defines": [
+      "Five memory types and their lifecycles",
+      "Memory formation routing",
+      "Write governance (who may write what)",
+      "Provenance architecture",
+      "Conflict resolution rules",
+      "Commitment lifecycle (8 states)",
+      "Memory consumption and delivery"
+    ],
+    "key_concepts": ["factual_memory", "interaction_memory", "commitment_memory", "action_memory", "learning_memory", "provenance", "write_governance"],
+    "read_this_if": "You want to understand how the Brain stores knowledge and governs what gets written."
+  },
+  {
+    "id": "ontology",
+    "title": "Ontology",
+    "version": "v1.2",
+    "status": "Canonical Conceptual Model",
+    "filename": "Company_Brain_Ontology_v1.2.md",
+    "one_sentence": "Defines the vocabulary of organizational life — four ontology layers and the Composite Knowledge Object layer.",
+    "what_it_defines": [
+      "Four ontology layers (Atomic Primitives → Core Objects → Organizational Structures → Operational Constructs)",
+      "Composite Knowledge Objects",
+      "Relationship model",
+      "Memory mapping for every object",
+      "Derived Intelligence Objects boundary"
+    ],
+    "key_concepts": ["ontology", "knowledge_objects", "core_objects", "organizational_structures", "operational_constructs"],
+    "read_this_if": "You want to understand the Brain's vocabulary and how concepts like Person, Team, Project, and Decision are defined."
+  },
+  {
+    "id": "intelligence",
+    "title": "Intelligence Architecture",
+    "version": "v1.0",
+    "status": "Canonical Conceptual Model — Frozen",
+    "filename": "Company_Brain_Intelligence_Architecture_v1.md",
+    "one_sentence": "Defines how the Brain reasons over memory to generate ten types of intelligence outputs, with confidence modeling and adaptive learning.",
+    "what_it_defines": [
+      "Context Assembly",
+      "Reasoning Architecture and Consultant modes",
+      "Ten Intelligence Object types and their lifecycles",
+      "Confidence Model (5 levels, asymmetric handling)",
+      "Adaptive Intelligence (the Learning Rule)",
+      "Freshness & Decay model"
+    ],
+    "key_concepts": ["intelligence_layer", "recommendation", "operational_risk", "drift_signal", "knowledge_gap", "brain_score", "confidence_model", "adaptive_intelligence"],
+    "read_this_if": "You want to understand how the Brain thinks, detects risks, and improves over time."
+  },
+  {
+    "id": "trust",
+    "title": "Trust & Governance Architecture",
+    "version": "v1.0",
+    "status": "Canonical Conceptual Model — Frozen",
+    "filename": "Company_Brain_Trust_&_Governance_Architecture_v1.md",
+    "one_sentence": "Defines the authority model, six Trust Objects, the Delegation Boundary Principle, and the Trust Failure behavior.",
+    "what_it_defines": [
+      "Authority Model (Role, Ownership, Policy, Delegation, Approval)",
+      "Six Trust Objects, each with a governed lifecycle",
+      "Challenge Authority",
+      "Delegation Boundary and Revocation principles",
+      "Trust Failure Principle (Trust overrides autonomy)",
+      "Agent Governance (Readiness vs. Authority)"
+    ],
+    "key_concepts": ["trust_governance", "claim", "evidence", "challenge", "approval", "exception", "delegation", "authority_model"],
+    "read_this_if": "You want to understand how the Brain ensures every claim is traceable, every action is governed, and every agent is authorized."
+  },
+  {
+    "id": "product",
+    "title": "Product Architecture",
+    "version": "v2.1",
+    "status": "Canonical Product Architecture",
+    "filename": "Company_Brain_Product_Architecture_v2.1.md",
+    "one_sentence": "Defines three exposure modes (Ambient Delivery, Agent Access, Mission Control) and eight Mission Control surfaces.",
+    "what_it_defines": [
+      "Three exposure modes",
+      "Eight Mission Control surfaces",
+      "MCP provider architecture (Agent Access)",
+      "Trust Cards",
+      "Three-Tier Boundary System",
+      "Knowledge Exchange and interoperability"
+    ],
+    "key_concepts": ["ambient_delivery", "agent_access", "mission_control", "personal_reality", "team_reality", "consultant", "reality_feed"],
+    "read_this_if": "You want to understand how the Brain reaches users and how humans and AI access organizational memory."
+  }
+]
