@@ -47,7 +47,7 @@ Company Brain operates as seven pipeline layers: Capture and Understanding const
 ```
 Organizational Reality
         ↓
-┌─────────────── Trust & Governance ───────────────┐
+┌───────────────── Trust & Governance ───────────────┐
 │                                                    │
 │  Capture → Understanding → Knowledge Objects       │
 │                    ↓                               │
