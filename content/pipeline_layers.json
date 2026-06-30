@@ -1,0 +1,69 @@
+{
+  "layers": [
+    {
+      "id": "capture_layer",
+      "name": "Capture",
+      "one_sentence": "The Brain observes and records everything your organization does, before trying to understand any of it.",
+      "key_question": "What is happening?"
+    },
+    {
+      "id": "understanding_layer",
+      "name": "Understanding",
+      "one_sentence": "The Brain reads everything it captured and works out what it actually means in terms of how the organization works.",
+      "key_question": "What does this mean?"
+    },
+    {
+      "id": "knowledge_objects",
+      "name": "Knowledge Objects",
+      "one_sentence": "Before the Brain can remember anything, it needs a standard way to write things down — that standard format is a Knowledge Object.",
+      "key_question": "How is this represented?"
+    },
+    {
+      "id": "memory_layer",
+      "name": "Memory",
+      "one_sentence": "The Brain stores everything the organization knows, organized into five types of knowledge that each decay and get queried differently.",
+      "key_question": "What should never be forgotten?"
+    },
+    {
+      "id": "intelligence_layer",
+      "name": "Intelligence",
+      "one_sentence": "Memory stores things; Intelligence reads across all of it and figures out what it means — risks, opportunities, and what to do next.",
+      "key_question": "What should we understand?"
+    },
+    {
+      "id": "execution_layer",
+      "name": "Execution",
+      "one_sentence": "This is where intelligence becomes action — humans and AI agents actually doing the work, informed by everything the Brain knows.",
+      "key_question": "What should happen next?"
+    },
+    {
+      "id": "exposure_layer",
+      "name": "Exposure",
+      "one_sentence": "The Brain delivers memory and intelligence to the right person, at the right moment, through the tool they're already using — without anyone having to ask.",
+      "key_question": "Who needs to know this?"
+    },
+    {
+      "id": "evolution_layer",
+      "name": "Evolution",
+      "one_sentence": "The Brain doesn't just remember — every time a recommendation succeeds, fails, or gets ignored, it learns from that outcome too.",
+      "key_question": "What changed because of what we did?"
+    }
+  ],
+  "trust": {
+    "id": "trust_governance",
+    "name": "Trust",
+    "one_sentence": "Surrounds every layer rather than sitting in the pipeline — every claim, action, and AI decision stays traceable, challengeable, and accountable to a named authority."
+  },
+  "products": [
+    {"id": "ambient_delivery", "name": "Ambient Delivery"},
+    {"id": "agent_access", "name": "Agent Access"},
+    {"id": "mission_control", "name": "Mission Control"}
+  ],
+  "audience_captions": {
+    "executive": "Seven layers handing off cleanly to one another — nothing your company learns falls through the cracks between them.",
+    "product": "Each layer hands off cleanly to the next — nothing your users do ever just disappears.",
+    "engineer": "Seven canonical layers, each with a defined input, output, and owner — Trust wraps all seven rather than sitting in the sequence.",
+    "new_hire": "Think of it like seven departments, each with a specific job, passing work to the next one down the line.",
+    "explorer": "Click any layer to go deeper — every block here is a doorway into the concept behind it."
+  }
+}

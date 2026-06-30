@@ -1,0 +1,297 @@
+[
+  {
+    "id": "memory_vs_knowledge_objects",
+    "title": "Memory vs Knowledge Objects",
+    "question": "Why isn't a Knowledge Object just stored directly as memory?",
+    "the_key_difference": "Knowledge Objects are the Brain's filing format — structured representations of what was understood. Memory is the filing system — persistent, governed, provenance-tagged storage. You can't skip Knowledge Objects and go straight to Memory, because Memory needs a standardized input format to maintain consistency, traceability, and queryability across everything the Brain has ever learned.",
+    "sides": [
+      {
+        "concept_id": "knowledge_objects",
+        "plain_name": "The Filing Card",
+        "technical_name": "Knowledge Objects",
+        "role_in_system": "Canonical representation layer. Created by Understanding. Consumed by Memory.",
+        "key_property": "Structured, typed, portable. Human-readable and AI-readable.",
+        "what_it_is_not": "Not persistent. Not governed by Write Governance. Not stored long-term.",
+        "analogy": "The standardized card a librarian fills in before filing a book."
+      },
+      {
+        "concept_id": "memory_layer",
+        "plain_name": "The Filing System",
+        "technical_name": "Memory Layer",
+        "role_in_system": "Persistent organizational knowledge. Receives Knowledge Objects. Serves Intelligence.",
+        "key_property": "Persistent, provenance-tagged, governed, queryable across five types.",
+        "what_it_is_not": "Not a representation format. Not produced by Understanding directly.",
+        "analogy": "The library's full catalogued archive — permanent, organized, auditable."
+      }
+    ]
+  },
+  {
+    "id": "decision_vs_commitment",
+    "title": "Decision vs Commitment",
+    "question": "Both happen in meetings. What's the difference?",
+    "the_key_difference": "A Decision is reconstructed from memory — it's not stored as its own object. Decisions are composed of Communication (the discussion), Goal (what was being decided), Rule (what governed the decision), and the Commitment it created. A Commitment, on the other hand, IS stored — it's future-oriented, tracked, and has a lifecycle (Requested → Promised → Fulfilled/Breached). Decisions explain the past. Commitments govern the future.",
+    "sides": [
+      {
+        "concept_id": "operational_constructs",
+        "plain_name": "A Decision",
+        "technical_name": "Decision (reconstructed)",
+        "role_in_system": "Not stored. Reconstructed on demand from Interaction Memory (why), Commitment Memory (what it created), Factual Memory (the goal or rule referenced).",
+        "key_property": "Reconstructed, not stored. Explainable through its components.",
+        "what_it_is_not": "Not a memory record. Not tracked with its own lifecycle.",
+        "analogy": "A conclusion you can explain by showing your reasoning — not a single stored fact."
+      },
+      {
+        "concept_id": "commitment_memory",
+        "plain_name": "A Commitment",
+        "technical_name": "Commitment (Commitment Memory)",
+        "role_in_system": "Stored in Commitment Memory. Tracked with lifecycle. Future-oriented — describes intended reality, not observed reality.",
+        "key_property": "Persistent, lifecycle-managed, owner-assigned. Eight lifecycle states.",
+        "what_it_is_not": "Not the reasoning behind the decision. Not explanatory by itself.",
+        "analogy": "A promise that is written down, assigned an owner, given a deadline, and tracked until it's kept or broken."
+      }
+    ]
+  },
+  {
+    "id": "drift_signal_vs_policy_violation",
+    "title": "Drift Signal vs Policy Violation",
+    "question": "Both mean something didn't follow the rules. What's the actual difference?",
+    "the_key_difference": "A Policy Violation is one specific, already-occurred, identifiable breach of a defined Rule — concrete enough to assign to an owner and escalate. A Drift Signal is a confirmed, repeated pattern of divergence between intended and observed reality, found by comparing many instances in Action Memory against the SOP or Policy. A single skipped approval might be a Policy Violation. The same skip happening across a third of all cases, confirmed independently across multiple teams, is a Drift Signal — evidence of a structural gap, not an isolated incident.",
+    "sides": [
+      {
+        "concept_id": "drift_signal",
+        "plain_name": "Reality Doesn't Match The Plan",
+        "technical_name": "Drift Signal",
+        "role_in_system": "Detected by comparing Action Memory at scale against Factual Memory's Rules/SOPs. Requires confidence ≥ Medium to escalate from Drift Pattern.",
+        "key_property": "Pattern-level, evidence-threshold-gated, severity-rated (Low/Medium/High/Critical).",
+        "what_it_is_not": "Not a single incident. Not yet escalated if confidence is below Medium — stays a Drift Pattern under observation.",
+        "analogy": "Noticing the same shortcut being taken by three different teams, independently, over months — not a one-off."
+      },
+      {
+        "concept_id": "policy_violation",
+        "plain_name": "Someone Did Something They Shouldn't Have",
+        "technical_name": "Policy Violation",
+        "role_in_system": "One specific, identifiable breach of a Rule, detected from a single Action Memory record compared against a Factual Memory Rule.",
+        "key_property": "Instance-level, immediately actionable, has an explicit Owner from the start.",
+        "what_it_is_not": "Not a future risk (that's Operational Risk). Not a repeated pattern by itself (that's Drift Signal).",
+        "analogy": "Catching one specific contract that was signed without the required approval — a single, provable incident."
+      }
+    ]
+  },
+  {
+    "id": "trust_vs_confidence",
+    "title": "Trust vs Confidence",
+    "question": "The Brain talks about both constantly. Aren't they the same thing?",
+    "the_key_difference": "Confidence is a property of Intelligence reasoning — how certain the Brain is that a Recommendation, Risk, or Prediction is accurate, based on evidence strength, source quality, agreement, freshness, and completeness. Trust is a property of governance — whether a Claim has been verified, challenged, or revalidated, and whether the right authority backs an action. A Recommendation can have High confidence (the reasoning is statistically solid) while the underlying Claim it depends on is Challenged (someone with standing disputes it). When Intelligence and Trust disagree, Trust wins — this is the Trust-First Rule.",
+    "sides": [
+      {
+        "concept_id": "intelligence_layer",
+        "plain_name": "How Sure The Reasoning Is",
+        "technical_name": "Confidence (Confidence Model)",
+        "role_in_system": "Five levels (Very Low → Very High), assessed per Intelligence Object from evidence strength, source quality, agreement, freshness, completeness.",
+        "key_property": "Asymmetric by output type — Risk and Drift Signal are tracked even at low confidence; Recommendations and Agent actions are withheld below threshold.",
+        "what_it_is_not": "Not a governance or authority concept. Not about whether an action is permitted.",
+        "analogy": "A weather forecaster saying '80% chance of rain' — a statement about certainty, not permission."
+      },
+      {
+        "concept_id": "claim",
+        "plain_name": "Whether It's Been Verified And By Whom",
+        "technical_name": "Trust (Trust Lifecycle, Claim)",
+        "role_in_system": "Governs whether a Claim is Asserted, Verified, Trusted, Challenged, or Revalidated — and whether an action has the Authority to proceed.",
+        "key_property": "Trust Overrides Autonomy — when Intelligence says go and Trust says no, Trust wins.",
+        "what_it_is_not": "Not a statistical measure. Not about how likely something is to be true — about whether it's been properly authorized and verified.",
+        "analogy": "A notarized document — not a guess about accuracy, but a formal stamp of verification and authority."
+      }
+    ]
+  },
+  {
+    "id": "factual_vs_interaction_memory",
+    "title": "Factual Memory vs Interaction Memory",
+    "question": "Both store information about the organization. Why split them?",
+    "the_key_difference": "Factual Memory stores what currently exists — stable reality like people, teams, policies, and goals, with a simple lifecycle (Observed → Recorded → Updated → Superseded → Archived). Interaction Memory stores why something happened — the reasoning, alternatives considered, and objections behind a discussion or decision. The two decay and get queried completely differently: 'who owns this account' is a Factual Memory lookup; 'why did we choose this vendor' is an Interaction Memory lookup. Mixing them would corrupt both — stable facts don't need reasoning trails, and reasoning isn't stable in the way facts are.",
+    "sides": [
+      {
+        "concept_id": "factual_memory",
+        "plain_name": "The Directory",
+        "technical_name": "Factual Memory",
+        "role_in_system": "Stores stable organizational reality: Actors, Resources, Goals, Policies, SOPs, Organizational Structures.",
+        "key_property": "Answers 'what exists' and 'who owns this' — reference-layer knowledge other reasoning builds on.",
+        "what_it_is_not": "Not where reasoning or discussion context lives. Not future-oriented.",
+        "analogy": "Your company's org chart and policy handbook — current, factual, reference material."
+      },
+      {
+        "concept_id": "interaction_memory",
+        "plain_name": "The Reasoning Store",
+        "technical_name": "Interaction Memory",
+        "role_in_system": "Stores discussions, negotiations, approvals, and the reasoning behind decisions.",
+        "key_property": "Answers 'why was this discussed' and 'what alternatives existed' — preserves institutional reasoning.",
+        "what_it_is_not": "Not a record of stable facts. Not where commitments themselves are tracked (that's Commitment Memory).",
+        "analogy": "The meeting minutes that capture not just what was decided, but the actual debate behind it."
+      }
+    ]
+  },
+  {
+    "id": "knowledge_vs_memory",
+    "title": "Knowledge vs Memory",
+    "question": "In plain English, 'knowledge' and 'memory' sound like the same thing. Are they?",
+    "the_key_difference": "In everyday language, 'knowledge' is a vague, informal idea — anything anyone understands. The Brain doesn't work with that fuzzy notion directly. Everything the Brain 'knows' exists only because it became Memory — a specific, governed, provenance-tagged record in one of five typed stores. There is no separate pool of general 'organizational knowledge' floating around outside Memory. If it isn't in Memory (or reconstructable from it), the Brain doesn't know it — no matter how obviously true it might seem to a person.",
+    "sides": [
+      {
+        "concept_id": "organizational_knowledge",
+        "plain_name": "What People Generally Know",
+        "technical_name": "\"Knowledge\" (informal)",
+        "role_in_system": "Not a Brain construct. An everyday, informal idea — whatever anyone happens to understand.",
+        "key_property": "Fuzzy, untyped, ungoverned, unsourced.",
+        "what_it_is_not": "Not something the Brain can query, trust, or act on directly.",
+        "analogy": "What's 'common knowledge' around the office — true, maybe, but nobody can point to where it came from."
+      },
+      {
+        "concept_id": "memory_layer",
+        "plain_name": "What The Brain Actually Knows",
+        "technical_name": "Memory Layer",
+        "role_in_system": "The only form organizational understanding takes once it's inside the Brain — five typed, governed, provenance-tagged stores.",
+        "key_property": "Specific, sourced, queryable, accountable.",
+        "what_it_is_not": "Not vague. Every record answers who asserted it, when, and from what source.",
+        "analogy": "The difference between 'I think someone mentioned that once' and a dated, signed memo on file."
+      }
+    ]
+  },
+  {
+    "id": "recommendation_vs_prediction",
+    "title": "Recommendation vs Prediction",
+    "question": "Both come from Intelligence reasoning over the same memory. Why are they different outputs?",
+    "the_key_difference": "A Prediction forecasts a future state — 'here's what's likely to happen' — without telling anyone what to do about it. A Recommendation goes one step further: it names a specific action and a specific owner. Simulation Mode actually produces a Prediction first (a 'Recommended Scenario'), and a Recommendation can be generated from it afterward — but the two stay distinct objects with separate lifecycles, because tracking whether a forecast came true is a different question from tracking whether someone acted on advice.",
+    "sides": [
+      {
+        "concept_id": "prediction",
+        "plain_name": "Here's What's Likely To Happen",
+        "technical_name": "Prediction",
+        "role_in_system": "A probabilistic forecast of a future organizational state, generated from Learning Memory patterns and current trajectory.",
+        "key_property": "Lifecycle: Generated → Tracked → Confirmed / Falsified. Outcome itself becomes new learning.",
+        "what_it_is_not": "Not an instruction. Doesn't name an action to take — just what's likely.",
+        "analogy": "A weather forecast — useful information, but it doesn't tell you to bring an umbrella."
+      },
+      {
+        "concept_id": "recommendation",
+        "plain_name": "You Should Do This",
+        "technical_name": "Recommendation",
+        "role_in_system": "A suggested action with reasoning, confidence, and sources, directed at a named owner.",
+        "key_property": "Lifecycle: Draft → Presented → Accepted / Rejected / Modified. Withheld below confidence threshold.",
+        "what_it_is_not": "Not just a forecast — always names a specific next action and who should take it.",
+        "analogy": "A doctor's prescription — built on a diagnosis (which is closer to a Prediction), but telling you exactly what to do."
+      }
+    ]
+  },
+  {
+    "id": "challenge_vs_conflict",
+    "title": "Challenge vs Conflict",
+    "question": "Both involve two things disagreeing. What's actually different?",
+    "the_key_difference": "Conflict Resolution is automatic: when two memory records contradict each other (two systems disagreeing about account ownership, for instance), the Brain marks one Current and one Superseded without anyone raising a hand. A Challenge is different — it's a human-initiated, formal dispute against a single Claim that someone with standing believes is wrong, outdated, or insufficiently evidenced, even if nothing else contradicts it yet. Conflict handles records disagreeing with each other. Challenge handles a person disagreeing with the Brain.",
+    "sides": [
+      {
+        "concept_id": "challenge",
+        "plain_name": "Disputing A Claim",
+        "technical_name": "Challenge",
+        "role_in_system": "A formal, human-initiated dispute against a specific Claim, requiring standing to raise and authority to resolve.",
+        "key_property": "Lifecycle: Raised → Reviewed → Resolved → Accepted / Rejected. Always initiated by an Actor.",
+        "what_it_is_not": "Not automatic. Doesn't require a second contradicting record to exist.",
+        "analogy": "Formally appealing a decision — someone has to actually raise their hand."
+      },
+      {
+        "concept_id": "conflict_resolution",
+        "plain_name": "Two Records Disagreeing",
+        "technical_name": "Conflict Resolution (Memory Model)",
+        "role_in_system": "Automatic handling of contradicting Factual Memory records — never silently overwritten, both preserved with one Current and one Superseded.",
+        "key_property": "Tie-break rules: higher authority source, more recent evidence, explicit human review.",
+        "what_it_is_not": "Not a dispute someone raises — triggered automatically whenever two records contradict.",
+        "analogy": "Two different databases reporting different account owners — the system notices on its own, no one has to complain first."
+      }
+    ]
+  },
+  {
+    "id": "authority_vs_ownership",
+    "title": "Authority vs Ownership",
+    "question": "Isn't being the 'owner' of something the same as having authority over it?",
+    "the_key_difference": "Ownership is accountability — the Intelligence layer's Owner field names who is responsible for responding to a Recommendation or Risk. Authority is permission — the Trust & Governance layer's question of who is actually allowed to approve, challenge, or delegate something. You can own a Risk without having the Authority to approve the fix yourself (you'd escalate); you can hold Authority over a budget without being the named Owner of every Risk that touches it. The two axes are deliberately separate so accountability and permission can be checked independently.",
+    "sides": [
+      {
+        "concept_id": "authority_model",
+        "plain_name": "Who's Allowed To Approve This",
+        "technical_name": "Authority (Authority Model)",
+        "role_in_system": "Built on Role, Ownership, Policy, Delegation, and Approval — answers who can write, approve, challenge, or delegate.",
+        "key_property": "Delegation Boundary Principle: authority can be transferred but never exceeded or created from nothing.",
+        "what_it_is_not": "Not the same as being named responsible for an outcome — that's Ownership.",
+        "analogy": "Having signing power on a company account — a permission, not a personal task list."
+      },
+      {
+        "concept_id": "operational_risk",
+        "plain_name": "Who's Responsible For This",
+        "technical_name": "Ownership (Owner field)",
+        "role_in_system": "The accountable actor named on every Intelligence Object, ensuring every Risk or Recommendation has someone responsible for responding.",
+        "key_property": "Owner may be Person, Team, Role, or Agent — set per object, not a system-wide permission.",
+        "what_it_is_not": "Not a grant of authority — owning a Risk doesn't automatically mean you can approve its resolution.",
+        "analogy": "Being assigned a ticket — you're responsible for it, even if you need someone else's sign-off to actually close it."
+      }
+    ]
+  },
+  {
+    "id": "learning_vs_memory",
+    "title": "Learning Memory vs Memory (in general)",
+    "question": "Learning Memory is one of the five stores — so how is it different from 'Memory' as a whole?",
+    "the_key_difference": "Memory is the umbrella: all five stores together, mostly describing reality as it is or was — what exists, why something happened, what's owed, what was done. Learning Memory is the one exception inside that umbrella: it's prescriptive, not descriptive. It doesn't record an event — it records a validated pattern about events, and it's the only memory type designed to decay as the organization's reality changes. Confusing the two means confusing 'a record of what happened' with 'a lesson about what tends to happen.'",
+    "sides": [
+      {
+        "concept_id": "learning_memory",
+        "plain_name": "The Lessons Store",
+        "technical_name": "Learning Memory",
+        "role_in_system": "One of five stores. Stores validated, repeated patterns — never a single observation.",
+        "key_property": "Prescriptive, not descriptive. The only memory type subject to decay.",
+        "what_it_is_not": "Not a record of a single event. Not written from one instance of feedback.",
+        "analogy": "A rule of thumb earned from experience — 'this usually happens when X' — not a diary entry."
+      },
+      {
+        "concept_id": "memory_layer",
+        "plain_name": "The Whole Memory System",
+        "technical_name": "Memory Layer (umbrella)",
+        "role_in_system": "All five stores together — Factual, Interaction, Commitment, Action, and Learning.",
+        "key_property": "Mostly descriptive — preserves reality as it is, was, or is intended to be.",
+        "what_it_is_not": "Not a single store — Learning Memory is one specialized part of it, not a synonym for it.",
+        "analogy": "The whole filing system in an office, of which 'lessons learned' is just one labeled drawer."
+      }
+    ]
+  },
+  {
+    "id": "policy_vs_sop_vs_workflow",
+    "title": "Policy vs SOP vs Workflow",
+    "question": "These all sound like 'the rules.' What's actually different about each?",
+    "the_key_difference": "These three look interchangeable because they all draw heavily on Rule and Goal — but each answers a completely different question. Policy is the constraint: what's allowed, required, or prohibited ('contracts over $100k need CFO approval'). SOP is the design: the prescribed sequence for satisfying that policy, written before anyone executes it ('here are the 8 steps for getting approval'). Workflow is the observation: the pattern reconstructed from Action Memory showing how it actually happened across many real executions — which may or may not match the SOP. Comparing SOP against Workflow is exactly how the Brain detects Drift.",
+    "sides": [
+      {
+        "concept_id": "operational_constructs",
+        "plain_name": "What's Allowed",
+        "technical_name": "Policy",
+        "role_in_system": "The constraint. Changes rarely. Defines authority to grant exceptions.",
+        "key_property": "Answers: what is allowed?",
+        "what_it_is_not": "Not a sequence of steps. Not a description of what actually happens.",
+        "analogy": "The law itself — 'speed limit is 60.'"
+      },
+      {
+        "concept_id": "operational_constructs",
+        "plain_name": "How It's Supposed To Happen",
+        "technical_name": "SOP",
+        "role_in_system": "The design. Written before execution, to satisfy a Policy or achieve a Goal in a recurring situation.",
+        "key_property": "Answers: how is this supposed to happen?",
+        "what_it_is_not": "Not the constraint itself. Not a record of what actually occurred.",
+        "analogy": "The driving instructions — 'check your mirror, signal, then merge.'"
+      },
+      {
+        "concept_id": "operational_constructs",
+        "plain_name": "How It Actually Happens",
+        "technical_name": "Workflow",
+        "role_in_system": "The observation. Reconstructed from Action Memory after execution — not stored as its own object.",
+        "key_property": "Answers: how does this actually happen?",
+        "what_it_is_not": "Not designed in advance. Not stored directly — always reconstructed from real executions.",
+        "analogy": "What the dashcam actually recorded you doing on the drive."
+      }
+    ]
+  }
+]

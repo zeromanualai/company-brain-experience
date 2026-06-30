@@ -1,0 +1,23 @@
+{
+  "home": {
+    "executive": "Built for a 10-minute investor or advisor briefing — start with The Problem.",
+    "product": "Built to show what changes for your users, screen by screen.",
+    "engineer": "Built to show every layer's inputs, outputs, and boundaries — no docs required.",
+    "new_hire": "Built so your first week makes sense without anyone explaining it to you.",
+    "explorer": "Built so you can wander — every concept links somewhere else."
+  },
+  "reality_pipeline": {
+    "executive": "This single walkthrough is the fastest way to convince a room why Company Brain matters.",
+    "product": "Watch exactly where a user's action surfaces back to them later, and through which surface.",
+    "engineer": "Every step names its inputs, outputs, and the exact memory or intelligence object produced.",
+    "new_hire": "Follow one ordinary sales call all the way through — this is the whole system in miniature.",
+    "explorer": "Step through at your own pace — every concept mentioned links deeper."
+  },
+  "documents": {
+    "executive": "You will probably never need to open these — the experience already covers what matters.",
+    "product": "Useful when you need the precise wording behind a product surface you're designing against.",
+    "engineer": "These six documents are canonical and frozen — treat them as the spec, not a suggestion.",
+    "new_hire": "You don't need to read these to do your job — they're here if you're ever curious.",
+    "explorer": "The full canonical source, kept as reference rather than a starting point."
+  }
+}

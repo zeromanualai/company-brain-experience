@@ -1,0 +1,1627 @@
+{
+  "nodes": [
+    {
+      "id": "capture_layer",
+      "label": "Watching",
+      "technical_name": "Capture Layer",
+      "category": "architecture_layer",
+      "layer": "Capture"
+    },
+    {
+      "id": "understanding_layer",
+      "label": "Making Sense Of It",
+      "technical_name": "Understanding Layer",
+      "category": "architecture_layer",
+      "layer": "Understanding"
+    },
+    {
+      "id": "knowledge_objects",
+      "label": "The Filing Card",
+      "technical_name": "Knowledge Objects",
+      "category": "architecture_layer",
+      "layer": "Knowledge Objects"
+    },
+    {
+      "id": "memory_layer",
+      "label": "Remembering",
+      "technical_name": "Memory Layer",
+      "category": "architecture_layer",
+      "layer": "Memory"
+    },
+    {
+      "id": "intelligence_layer",
+      "label": "Thinking",
+      "technical_name": "Intelligence Layer",
+      "category": "architecture_layer",
+      "layer": "Intelligence"
+    },
+    {
+      "id": "execution_layer",
+      "label": "Doing",
+      "technical_name": "Execution Layer",
+      "category": "architecture_layer",
+      "layer": "Execution"
+    },
+    {
+      "id": "exposure_layer",
+      "label": "Delivering",
+      "technical_name": "Exposure Layer",
+      "category": "architecture_layer",
+      "layer": "Exposure"
+    },
+    {
+      "id": "evolution_layer",
+      "label": "Learning",
+      "technical_name": "Evolution Layer",
+      "category": "architecture_layer",
+      "layer": "Evolution"
+    },
+    {
+      "id": "actor",
+      "label": "Who's Involved",
+      "technical_name": "Actor",
+      "category": "atomic_primitive",
+      "layer": "Understanding"
+    },
+    {
+      "id": "communication",
+      "label": "What Was Said",
+      "technical_name": "Communication",
+      "category": "atomic_primitive",
+      "layer": "Understanding"
+    },
+    {
+      "id": "commitment",
+      "label": "What Was Promised",
+      "technical_name": "Commitment",
+      "category": "atomic_primitive",
+      "layer": "Understanding"
+    },
+    {
+      "id": "action",
+      "label": "What Was Done",
+      "technical_name": "Action",
+      "category": "atomic_primitive",
+      "layer": "Understanding"
+    },
+    {
+      "id": "resource",
+      "label": "What Was Used",
+      "technical_name": "Resource",
+      "category": "atomic_primitive",
+      "layer": "Understanding"
+    },
+    {
+      "id": "rule",
+      "label": "What's Allowed",
+      "technical_name": "Rule",
+      "category": "atomic_primitive",
+      "layer": "Understanding"
+    },
+    {
+      "id": "goal",
+      "label": "What We're Trying To Achieve",
+      "technical_name": "Goal",
+      "category": "atomic_primitive",
+      "layer": "Understanding"
+    },
+    {
+      "id": "state",
+      "label": "What's The Current Situation",
+      "technical_name": "State",
+      "category": "atomic_primitive",
+      "layer": "Understanding"
+    },
+    {
+      "id": "time",
+      "label": "When",
+      "technical_name": "Time",
+      "category": "atomic_primitive",
+      "layer": "Understanding"
+    },
+    {
+      "id": "relationship",
+      "label": "How Things Connect",
+      "technical_name": "Relationship",
+      "category": "atomic_primitive",
+      "layer": "Understanding"
+    },
+    {
+      "id": "factual_memory",
+      "label": "The Directory",
+      "technical_name": "Factual Memory",
+      "category": "memory_type",
+      "layer": "Memory"
+    },
+    {
+      "id": "interaction_memory",
+      "label": "The Reasoning Store",
+      "technical_name": "Interaction Memory",
+      "category": "memory_type",
+      "layer": "Memory"
+    },
+    {
+      "id": "commitment_memory",
+      "label": "The Promise Store",
+      "technical_name": "Commitment Memory",
+      "category": "memory_type",
+      "layer": "Memory"
+    },
+    {
+      "id": "action_memory",
+      "label": "The Action Store",
+      "technical_name": "Action Memory",
+      "category": "memory_type",
+      "layer": "Memory"
+    },
+    {
+      "id": "learning_memory",
+      "label": "The Lessons Store",
+      "technical_name": "Learning Memory",
+      "category": "memory_type",
+      "layer": "Memory"
+    },
+    {
+      "id": "recommendation",
+      "label": "You Should Do This",
+      "technical_name": "Recommendation",
+      "category": "intelligence_output",
+      "layer": "Intelligence"
+    },
+    {
+      "id": "operational_risk",
+      "label": "Something Might Go Wrong",
+      "technical_name": "Operational Risk",
+      "category": "intelligence_output",
+      "layer": "Intelligence"
+    },
+    {
+      "id": "opportunity_signal",
+      "label": "You Could Gain Something Here",
+      "technical_name": "Opportunity Signal",
+      "category": "intelligence_output",
+      "layer": "Intelligence"
+    },
+    {
+      "id": "drift_signal",
+      "label": "Reality Doesn't Match The Plan",
+      "technical_name": "Drift Signal",
+      "category": "intelligence_output",
+      "layer": "Intelligence"
+    },
+    {
+      "id": "knowledge_gap",
+      "label": "We Don't Know Something We Should",
+      "technical_name": "Knowledge Gap",
+      "category": "intelligence_output",
+      "layer": "Intelligence"
+    },
+    {
+      "id": "prediction",
+      "label": "Here's What's Likely To Happen",
+      "technical_name": "Prediction",
+      "category": "intelligence_output",
+      "layer": "Intelligence"
+    },
+    {
+      "id": "policy_violation",
+      "label": "Someone Did Something They Shouldn't Have",
+      "technical_name": "Policy Violation",
+      "category": "intelligence_output",
+      "layer": "Intelligence"
+    },
+    {
+      "id": "process_bottleneck",
+      "label": "This Step Keeps Slowing Everything Down",
+      "technical_name": "Process Bottleneck",
+      "category": "intelligence_output",
+      "layer": "Intelligence"
+    },
+    {
+      "id": "agent_readiness",
+      "label": "Is This AI Agent Ready To Act",
+      "technical_name": "Agent Readiness",
+      "category": "intelligence_output",
+      "layer": "Intelligence"
+    },
+    {
+      "id": "brain_score",
+      "label": "How Healthy Is This Team/Project",
+      "technical_name": "Brain Score",
+      "category": "intelligence_output",
+      "layer": "Intelligence"
+    },
+    {
+      "id": "claim",
+      "label": "Something We Believe To Be True",
+      "technical_name": "Claim",
+      "category": "trust_object",
+      "layer": "Trust"
+    },
+    {
+      "id": "evidence",
+      "label": "Why We Believe It",
+      "technical_name": "Evidence",
+      "category": "trust_object",
+      "layer": "Trust"
+    },
+    {
+      "id": "challenge",
+      "label": "Disputing A Claim",
+      "technical_name": "Challenge",
+      "category": "trust_object",
+      "layer": "Trust"
+    },
+    {
+      "id": "approval",
+      "label": "Authorization To Proceed",
+      "technical_name": "Approval",
+      "category": "trust_object",
+      "layer": "Trust"
+    },
+    {
+      "id": "exception",
+      "label": "An Approved Deviation",
+      "technical_name": "Exception",
+      "category": "trust_object",
+      "layer": "Trust"
+    },
+    {
+      "id": "delegation",
+      "label": "Handing Off Authority",
+      "technical_name": "Delegation",
+      "category": "trust_object",
+      "layer": "Trust"
+    },
+    {
+      "id": "ambient_delivery",
+      "label": "The Brain Comes To You",
+      "technical_name": "Ambient Delivery",
+      "category": "product_mode",
+      "layer": "Product"
+    },
+    {
+      "id": "agent_access",
+      "label": "The Brain Answers AI",
+      "technical_name": "Agent Access",
+      "category": "product_mode",
+      "layer": "Product"
+    },
+    {
+      "id": "mission_control",
+      "label": "You Go To The Brain",
+      "technical_name": "Mission Control",
+      "category": "product_mode",
+      "layer": "Product"
+    },
+    {
+      "id": "atomic_primitives",
+      "label": "The Ten Building Blocks",
+      "technical_name": "Atomic Primitives Layer",
+      "category": "ontology_concept",
+      "layer": "Ontology"
+    },
+    {
+      "id": "core_objects",
+      "label": "Who Exists",
+      "technical_name": "Core Objects Layer",
+      "category": "ontology_concept",
+      "layer": "Ontology"
+    },
+    {
+      "id": "operational_constructs",
+      "label": "How Work Actually Happens",
+      "technical_name": "Operational Constructs",
+      "category": "ontology_concept",
+      "layer": "Ontology"
+    },
+    {
+      "id": "adaptive_intelligence",
+      "label": "Adaptive Intelligence",
+      "technical_name": "Adaptive Intelligence",
+      "category": "coming_soon",
+      "layer": "Intelligence"
+    },
+    {
+      "id": "consultant",
+      "label": "Consultant",
+      "technical_name": "Consultant",
+      "category": "coming_soon",
+      "layer": "Product"
+    },
+    {
+      "id": "trust_governance",
+      "label": "Trust & Governance",
+      "technical_name": "Trust & Governance",
+      "category": "coming_soon",
+      "layer": "Trust"
+    }
+  ],
+  "edges": [
+    {
+      "from": "capture_layer",
+      "to": "understanding_layer",
+      "type": "feeds_into"
+    },
+    {
+      "from": "capture_layer",
+      "to": "trust_governance",
+      "type": "governed_by"
+    },
+    {
+      "from": "capture_layer",
+      "to": "understanding_layer",
+      "type": "related_to"
+    },
+    {
+      "from": "capture_layer",
+      "to": "actor",
+      "type": "related_to"
+    },
+    {
+      "from": "capture_layer",
+      "to": "communication",
+      "type": "related_to"
+    },
+    {
+      "from": "capture_layer",
+      "to": "understanding_layer",
+      "type": "creates"
+    },
+    {
+      "from": "understanding_layer",
+      "to": "knowledge_objects",
+      "type": "feeds_into"
+    },
+    {
+      "from": "understanding_layer",
+      "to": "memory_layer",
+      "type": "feeds_into"
+    },
+    {
+      "from": "understanding_layer",
+      "to": "trust_governance",
+      "type": "governed_by"
+    },
+    {
+      "from": "understanding_layer",
+      "to": "atomic_primitives",
+      "type": "related_to"
+    },
+    {
+      "from": "understanding_layer",
+      "to": "knowledge_objects",
+      "type": "related_to"
+    },
+    {
+      "from": "understanding_layer",
+      "to": "knowledge_objects",
+      "type": "creates"
+    },
+    {
+      "from": "knowledge_objects",
+      "to": "memory_layer",
+      "type": "feeds_into"
+    },
+    {
+      "from": "knowledge_objects",
+      "to": "trust_governance",
+      "type": "governed_by"
+    },
+    {
+      "from": "knowledge_objects",
+      "to": "atomic_primitives",
+      "type": "related_to"
+    },
+    {
+      "from": "knowledge_objects",
+      "to": "core_objects",
+      "type": "related_to"
+    },
+    {
+      "from": "knowledge_objects",
+      "to": "operational_constructs",
+      "type": "related_to"
+    },
+    {
+      "from": "knowledge_objects",
+      "to": "memory_layer",
+      "type": "creates"
+    },
+    {
+      "from": "memory_layer",
+      "to": "intelligence_layer",
+      "type": "feeds_into"
+    },
+    {
+      "from": "memory_layer",
+      "to": "trust_governance",
+      "type": "governed_by"
+    },
+    {
+      "from": "memory_layer",
+      "to": "factual_memory",
+      "type": "related_to"
+    },
+    {
+      "from": "memory_layer",
+      "to": "interaction_memory",
+      "type": "related_to"
+    },
+    {
+      "from": "memory_layer",
+      "to": "commitment_memory",
+      "type": "related_to"
+    },
+    {
+      "from": "memory_layer",
+      "to": "action_memory",
+      "type": "related_to"
+    },
+    {
+      "from": "memory_layer",
+      "to": "learning_memory",
+      "type": "related_to"
+    },
+    {
+      "from": "memory_layer",
+      "to": "intelligence_layer",
+      "type": "creates"
+    },
+    {
+      "from": "intelligence_layer",
+      "to": "execution_layer",
+      "type": "feeds_into"
+    },
+    {
+      "from": "intelligence_layer",
+      "to": "exposure_layer",
+      "type": "feeds_into"
+    },
+    {
+      "from": "intelligence_layer",
+      "to": "trust_governance",
+      "type": "governed_by"
+    },
+    {
+      "from": "intelligence_layer",
+      "to": "recommendation",
+      "type": "related_to"
+    },
+    {
+      "from": "intelligence_layer",
+      "to": "operational_risk",
+      "type": "related_to"
+    },
+    {
+      "from": "intelligence_layer",
+      "to": "drift_signal",
+      "type": "related_to"
+    },
+    {
+      "from": "intelligence_layer",
+      "to": "brain_score",
+      "type": "related_to"
+    },
+    {
+      "from": "intelligence_layer",
+      "to": "execution_layer",
+      "type": "creates"
+    },
+    {
+      "from": "execution_layer",
+      "to": "evolution_layer",
+      "type": "feeds_into"
+    },
+    {
+      "from": "execution_layer",
+      "to": "action_memory",
+      "type": "feeds_into"
+    },
+    {
+      "from": "execution_layer",
+      "to": "trust_governance",
+      "type": "governed_by"
+    },
+    {
+      "from": "execution_layer",
+      "to": "agent_readiness",
+      "type": "related_to"
+    },
+    {
+      "from": "execution_layer",
+      "to": "action",
+      "type": "related_to"
+    },
+    {
+      "from": "intelligence_layer",
+      "to": "exposure_layer",
+      "type": "creates"
+    },
+    {
+      "from": "memory_layer",
+      "to": "exposure_layer",
+      "type": "creates"
+    },
+    {
+      "from": "exposure_layer",
+      "to": "ambient_delivery",
+      "type": "feeds_into"
+    },
+    {
+      "from": "exposure_layer",
+      "to": "agent_access",
+      "type": "feeds_into"
+    },
+    {
+      "from": "exposure_layer",
+      "to": "mission_control",
+      "type": "feeds_into"
+    },
+    {
+      "from": "exposure_layer",
+      "to": "trust_governance",
+      "type": "governed_by"
+    },
+    {
+      "from": "exposure_layer",
+      "to": "evolution_layer",
+      "type": "related_to"
+    },
+    {
+      "from": "execution_layer",
+      "to": "evolution_layer",
+      "type": "creates"
+    },
+    {
+      "from": "exposure_layer",
+      "to": "evolution_layer",
+      "type": "creates"
+    },
+    {
+      "from": "evolution_layer",
+      "to": "learning_memory",
+      "type": "feeds_into"
+    },
+    {
+      "from": "evolution_layer",
+      "to": "trust_governance",
+      "type": "governed_by"
+    },
+    {
+      "from": "evolution_layer",
+      "to": "adaptive_intelligence",
+      "type": "related_to"
+    },
+    {
+      "from": "evolution_layer",
+      "to": "drift_signal",
+      "type": "related_to"
+    },
+    {
+      "from": "actor",
+      "to": "communication",
+      "type": "feeds_into"
+    },
+    {
+      "from": "actor",
+      "to": "commitment",
+      "type": "feeds_into"
+    },
+    {
+      "from": "actor",
+      "to": "trust_governance",
+      "type": "governed_by"
+    },
+    {
+      "from": "actor",
+      "to": "relationship",
+      "type": "related_to"
+    },
+    {
+      "from": "actor",
+      "to": "factual_memory",
+      "type": "related_to"
+    },
+    {
+      "from": "actor",
+      "to": "communication",
+      "type": "creates"
+    },
+    {
+      "from": "communication",
+      "to": "commitment",
+      "type": "feeds_into"
+    },
+    {
+      "from": "communication",
+      "to": "interaction_memory",
+      "type": "feeds_into"
+    },
+    {
+      "from": "communication",
+      "to": "trust_governance",
+      "type": "governed_by"
+    },
+    {
+      "from": "communication",
+      "to": "actor",
+      "type": "related_to"
+    },
+    {
+      "from": "communication",
+      "to": "interaction_memory",
+      "type": "related_to"
+    },
+    {
+      "from": "communication",
+      "to": "commitment",
+      "type": "creates"
+    },
+    {
+      "from": "commitment",
+      "to": "commitment_memory",
+      "type": "feeds_into"
+    },
+    {
+      "from": "commitment",
+      "to": "operational_risk",
+      "type": "feeds_into"
+    },
+    {
+      "from": "commitment",
+      "to": "trust_governance",
+      "type": "governed_by"
+    },
+    {
+      "from": "commitment",
+      "to": "action",
+      "type": "related_to"
+    },
+    {
+      "from": "commitment",
+      "to": "goal",
+      "type": "related_to"
+    },
+    {
+      "from": "commitment",
+      "to": "action",
+      "type": "creates"
+    },
+    {
+      "from": "action",
+      "to": "action_memory",
+      "type": "feeds_into"
+    },
+    {
+      "from": "action",
+      "to": "drift_signal",
+      "type": "feeds_into"
+    },
+    {
+      "from": "action",
+      "to": "trust_governance",
+      "type": "governed_by"
+    },
+    {
+      "from": "action",
+      "to": "resource",
+      "type": "related_to"
+    },
+    {
+      "from": "action",
+      "to": "state",
+      "type": "related_to"
+    },
+    {
+      "from": "resource",
+      "to": "commitment",
+      "type": "feeds_into"
+    },
+    {
+      "from": "resource",
+      "to": "action",
+      "type": "feeds_into"
+    },
+    {
+      "from": "resource",
+      "to": "trust_governance",
+      "type": "governed_by"
+    },
+    {
+      "from": "resource",
+      "to": "factual_memory",
+      "type": "related_to"
+    },
+    {
+      "from": "rule",
+      "to": "policy_violation",
+      "type": "feeds_into"
+    },
+    {
+      "from": "rule",
+      "to": "drift_signal",
+      "type": "feeds_into"
+    },
+    {
+      "from": "rule",
+      "to": "trust_governance",
+      "type": "governed_by"
+    },
+    {
+      "from": "rule",
+      "to": "factual_memory",
+      "type": "related_to"
+    },
+    {
+      "from": "rule",
+      "to": "commitment",
+      "type": "related_to"
+    },
+    {
+      "from": "goal",
+      "to": "recommendation",
+      "type": "feeds_into"
+    },
+    {
+      "from": "goal",
+      "to": "operational_risk",
+      "type": "feeds_into"
+    },
+    {
+      "from": "goal",
+      "to": "trust_governance",
+      "type": "governed_by"
+    },
+    {
+      "from": "goal",
+      "to": "factual_memory",
+      "type": "related_to"
+    },
+    {
+      "from": "goal",
+      "to": "interaction_memory",
+      "type": "related_to"
+    },
+    {
+      "from": "action",
+      "to": "state",
+      "type": "creates"
+    },
+    {
+      "from": "state",
+      "to": "trust_governance",
+      "type": "governed_by"
+    },
+    {
+      "from": "state",
+      "to": "commitment",
+      "type": "related_to"
+    },
+    {
+      "from": "state",
+      "to": "action",
+      "type": "related_to"
+    },
+    {
+      "from": "time",
+      "to": "operational_risk",
+      "type": "feeds_into"
+    },
+    {
+      "from": "time",
+      "to": "trust_governance",
+      "type": "governed_by"
+    },
+    {
+      "from": "time",
+      "to": "commitment",
+      "type": "related_to"
+    },
+    {
+      "from": "time",
+      "to": "state",
+      "type": "related_to"
+    },
+    {
+      "from": "relationship",
+      "to": "trust_governance",
+      "type": "governed_by"
+    },
+    {
+      "from": "relationship",
+      "to": "actor",
+      "type": "related_to"
+    },
+    {
+      "from": "relationship",
+      "to": "commitment",
+      "type": "related_to"
+    },
+    {
+      "from": "knowledge_objects",
+      "to": "factual_memory",
+      "type": "creates"
+    },
+    {
+      "from": "factual_memory",
+      "to": "intelligence_layer",
+      "type": "feeds_into"
+    },
+    {
+      "from": "factual_memory",
+      "to": "trust_governance",
+      "type": "governed_by"
+    },
+    {
+      "from": "factual_memory",
+      "to": "actor",
+      "type": "related_to"
+    },
+    {
+      "from": "factual_memory",
+      "to": "goal",
+      "type": "related_to"
+    },
+    {
+      "from": "factual_memory",
+      "to": "rule",
+      "type": "related_to"
+    },
+    {
+      "from": "communication",
+      "to": "interaction_memory",
+      "type": "creates"
+    },
+    {
+      "from": "interaction_memory",
+      "to": "intelligence_layer",
+      "type": "feeds_into"
+    },
+    {
+      "from": "interaction_memory",
+      "to": "commitment_memory",
+      "type": "feeds_into"
+    },
+    {
+      "from": "interaction_memory",
+      "to": "trust_governance",
+      "type": "governed_by"
+    },
+    {
+      "from": "interaction_memory",
+      "to": "communication",
+      "type": "related_to"
+    },
+    {
+      "from": "interaction_memory",
+      "to": "factual_memory",
+      "type": "related_to"
+    },
+    {
+      "from": "commitment",
+      "to": "commitment_memory",
+      "type": "creates"
+    },
+    {
+      "from": "commitment_memory",
+      "to": "operational_risk",
+      "type": "feeds_into"
+    },
+    {
+      "from": "commitment_memory",
+      "to": "intelligence_layer",
+      "type": "feeds_into"
+    },
+    {
+      "from": "commitment_memory",
+      "to": "trust_governance",
+      "type": "governed_by"
+    },
+    {
+      "from": "commitment_memory",
+      "to": "commitment",
+      "type": "related_to"
+    },
+    {
+      "from": "commitment_memory",
+      "to": "action_memory",
+      "type": "related_to"
+    },
+    {
+      "from": "action",
+      "to": "action_memory",
+      "type": "creates"
+    },
+    {
+      "from": "action_memory",
+      "to": "drift_signal",
+      "type": "feeds_into"
+    },
+    {
+      "from": "action_memory",
+      "to": "process_bottleneck",
+      "type": "feeds_into"
+    },
+    {
+      "from": "action_memory",
+      "to": "trust_governance",
+      "type": "governed_by"
+    },
+    {
+      "from": "action_memory",
+      "to": "action",
+      "type": "related_to"
+    },
+    {
+      "from": "action_memory",
+      "to": "commitment_memory",
+      "type": "related_to"
+    },
+    {
+      "from": "evolution_layer",
+      "to": "learning_memory",
+      "type": "creates"
+    },
+    {
+      "from": "learning_memory",
+      "to": "intelligence_layer",
+      "type": "feeds_into"
+    },
+    {
+      "from": "learning_memory",
+      "to": "trust_governance",
+      "type": "governed_by"
+    },
+    {
+      "from": "learning_memory",
+      "to": "adaptive_intelligence",
+      "type": "related_to"
+    },
+    {
+      "from": "learning_memory",
+      "to": "drift_signal",
+      "type": "related_to"
+    },
+    {
+      "from": "intelligence_layer",
+      "to": "recommendation",
+      "type": "creates"
+    },
+    {
+      "from": "recommendation",
+      "to": "execution_layer",
+      "type": "feeds_into"
+    },
+    {
+      "from": "recommendation",
+      "to": "adaptive_intelligence",
+      "type": "feeds_into"
+    },
+    {
+      "from": "recommendation",
+      "to": "approval",
+      "type": "governed_by"
+    },
+    {
+      "from": "recommendation",
+      "to": "trust_governance",
+      "type": "governed_by"
+    },
+    {
+      "from": "recommendation",
+      "to": "operational_risk",
+      "type": "related_to"
+    },
+    {
+      "from": "recommendation",
+      "to": "consultant",
+      "type": "related_to"
+    },
+    {
+      "from": "intelligence_layer",
+      "to": "operational_risk",
+      "type": "creates"
+    },
+    {
+      "from": "commitment",
+      "to": "operational_risk",
+      "type": "creates"
+    },
+    {
+      "from": "operational_risk",
+      "to": "exposure_layer",
+      "type": "feeds_into"
+    },
+    {
+      "from": "operational_risk",
+      "to": "trust_governance",
+      "type": "governed_by"
+    },
+    {
+      "from": "operational_risk",
+      "to": "drift_signal",
+      "type": "related_to"
+    },
+    {
+      "from": "operational_risk",
+      "to": "recommendation",
+      "type": "related_to"
+    },
+    {
+      "from": "operational_risk",
+      "to": "brain_score",
+      "type": "related_to"
+    },
+    {
+      "from": "learning_memory",
+      "to": "opportunity_signal",
+      "type": "creates"
+    },
+    {
+      "from": "opportunity_signal",
+      "to": "execution_layer",
+      "type": "feeds_into"
+    },
+    {
+      "from": "opportunity_signal",
+      "to": "trust_governance",
+      "type": "governed_by"
+    },
+    {
+      "from": "opportunity_signal",
+      "to": "recommendation",
+      "type": "related_to"
+    },
+    {
+      "from": "opportunity_signal",
+      "to": "operational_constructs",
+      "type": "related_to"
+    },
+    {
+      "from": "action_memory",
+      "to": "drift_signal",
+      "type": "creates"
+    },
+    {
+      "from": "rule",
+      "to": "drift_signal",
+      "type": "creates"
+    },
+    {
+      "from": "drift_signal",
+      "to": "policy_violation",
+      "type": "feeds_into"
+    },
+    {
+      "from": "drift_signal",
+      "to": "exception",
+      "type": "feeds_into"
+    },
+    {
+      "from": "drift_signal",
+      "to": "trust_governance",
+      "type": "governed_by"
+    },
+    {
+      "from": "drift_signal",
+      "to": "operational_constructs",
+      "type": "related_to"
+    },
+    {
+      "from": "drift_signal",
+      "to": "action_memory",
+      "type": "related_to"
+    },
+    {
+      "from": "intelligence_layer",
+      "to": "knowledge_gap",
+      "type": "creates"
+    },
+    {
+      "from": "knowledge_gap",
+      "to": "consultant",
+      "type": "feeds_into"
+    },
+    {
+      "from": "knowledge_gap",
+      "to": "trust_governance",
+      "type": "governed_by"
+    },
+    {
+      "from": "knowledge_gap",
+      "to": "prediction",
+      "type": "related_to"
+    },
+    {
+      "from": "knowledge_gap",
+      "to": "recommendation",
+      "type": "related_to"
+    },
+    {
+      "from": "learning_memory",
+      "to": "prediction",
+      "type": "creates"
+    },
+    {
+      "from": "action_memory",
+      "to": "prediction",
+      "type": "creates"
+    },
+    {
+      "from": "prediction",
+      "to": "consultant",
+      "type": "feeds_into"
+    },
+    {
+      "from": "prediction",
+      "to": "trust_governance",
+      "type": "governed_by"
+    },
+    {
+      "from": "prediction",
+      "to": "knowledge_gap",
+      "type": "related_to"
+    },
+    {
+      "from": "prediction",
+      "to": "brain_score",
+      "type": "related_to"
+    },
+    {
+      "from": "rule",
+      "to": "policy_violation",
+      "type": "creates"
+    },
+    {
+      "from": "action_memory",
+      "to": "policy_violation",
+      "type": "creates"
+    },
+    {
+      "from": "policy_violation",
+      "to": "exception",
+      "type": "feeds_into"
+    },
+    {
+      "from": "policy_violation",
+      "to": "challenge",
+      "type": "feeds_into"
+    },
+    {
+      "from": "policy_violation",
+      "to": "trust_governance",
+      "type": "governed_by"
+    },
+    {
+      "from": "policy_violation",
+      "to": "drift_signal",
+      "type": "related_to"
+    },
+    {
+      "from": "policy_violation",
+      "to": "rule",
+      "type": "related_to"
+    },
+    {
+      "from": "action_memory",
+      "to": "process_bottleneck",
+      "type": "creates"
+    },
+    {
+      "from": "process_bottleneck",
+      "to": "mission_control",
+      "type": "feeds_into"
+    },
+    {
+      "from": "process_bottleneck",
+      "to": "trust_governance",
+      "type": "governed_by"
+    },
+    {
+      "from": "process_bottleneck",
+      "to": "drift_signal",
+      "type": "related_to"
+    },
+    {
+      "from": "process_bottleneck",
+      "to": "brain_score",
+      "type": "related_to"
+    },
+    {
+      "from": "intelligence_layer",
+      "to": "agent_readiness",
+      "type": "creates"
+    },
+    {
+      "from": "agent_readiness",
+      "to": "execution_layer",
+      "type": "feeds_into"
+    },
+    {
+      "from": "agent_readiness",
+      "to": "trust_governance",
+      "type": "governed_by"
+    },
+    {
+      "from": "agent_readiness",
+      "to": "agent_access",
+      "type": "related_to"
+    },
+    {
+      "from": "agent_readiness",
+      "to": "approval",
+      "type": "related_to"
+    },
+    {
+      "from": "operational_risk",
+      "to": "brain_score",
+      "type": "creates"
+    },
+    {
+      "from": "drift_signal",
+      "to": "brain_score",
+      "type": "creates"
+    },
+    {
+      "from": "brain_score",
+      "to": "ambient_delivery",
+      "type": "feeds_into"
+    },
+    {
+      "from": "brain_score",
+      "to": "mission_control",
+      "type": "feeds_into"
+    },
+    {
+      "from": "brain_score",
+      "to": "trust_governance",
+      "type": "governed_by"
+    },
+    {
+      "from": "brain_score",
+      "to": "operational_risk",
+      "type": "related_to"
+    },
+    {
+      "from": "brain_score",
+      "to": "drift_signal",
+      "type": "related_to"
+    },
+    {
+      "from": "memory_layer",
+      "to": "claim",
+      "type": "creates"
+    },
+    {
+      "from": "intelligence_layer",
+      "to": "claim",
+      "type": "creates"
+    },
+    {
+      "from": "claim",
+      "to": "challenge",
+      "type": "feeds_into"
+    },
+    {
+      "from": "claim",
+      "to": "trust_governance",
+      "type": "governed_by"
+    },
+    {
+      "from": "claim",
+      "to": "evidence",
+      "type": "related_to"
+    },
+    {
+      "from": "claim",
+      "to": "challenge",
+      "type": "related_to"
+    },
+    {
+      "from": "memory_layer",
+      "to": "evidence",
+      "type": "creates"
+    },
+    {
+      "from": "intelligence_layer",
+      "to": "evidence",
+      "type": "creates"
+    },
+    {
+      "from": "evidence",
+      "to": "claim",
+      "type": "feeds_into"
+    },
+    {
+      "from": "evidence",
+      "to": "trust_governance",
+      "type": "governed_by"
+    },
+    {
+      "from": "evidence",
+      "to": "claim",
+      "type": "related_to"
+    },
+    {
+      "from": "evidence",
+      "to": "challenge",
+      "type": "related_to"
+    },
+    {
+      "from": "claim",
+      "to": "challenge",
+      "type": "creates"
+    },
+    {
+      "from": "challenge",
+      "to": "exception",
+      "type": "feeds_into"
+    },
+    {
+      "from": "challenge",
+      "to": "trust_governance",
+      "type": "governed_by"
+    },
+    {
+      "from": "challenge",
+      "to": "claim",
+      "type": "related_to"
+    },
+    {
+      "from": "challenge",
+      "to": "evidence",
+      "type": "related_to"
+    },
+    {
+      "from": "challenge",
+      "to": "policy_violation",
+      "type": "related_to"
+    },
+    {
+      "from": "challenge",
+      "to": "approval",
+      "type": "creates"
+    },
+    {
+      "from": "drift_signal",
+      "to": "approval",
+      "type": "creates"
+    },
+    {
+      "from": "approval",
+      "to": "execution_layer",
+      "type": "feeds_into"
+    },
+    {
+      "from": "approval",
+      "to": "trust_governance",
+      "type": "governed_by"
+    },
+    {
+      "from": "approval",
+      "to": "delegation",
+      "type": "related_to"
+    },
+    {
+      "from": "approval",
+      "to": "recommendation",
+      "type": "related_to"
+    },
+    {
+      "from": "policy_violation",
+      "to": "exception",
+      "type": "creates"
+    },
+    {
+      "from": "drift_signal",
+      "to": "exception",
+      "type": "creates"
+    },
+    {
+      "from": "exception",
+      "to": "approval",
+      "type": "governed_by"
+    },
+    {
+      "from": "exception",
+      "to": "trust_governance",
+      "type": "governed_by"
+    },
+    {
+      "from": "exception",
+      "to": "policy_violation",
+      "type": "related_to"
+    },
+    {
+      "from": "exception",
+      "to": "drift_signal",
+      "type": "related_to"
+    },
+    {
+      "from": "approval",
+      "to": "delegation",
+      "type": "creates"
+    },
+    {
+      "from": "delegation",
+      "to": "trust_governance",
+      "type": "governed_by"
+    },
+    {
+      "from": "delegation",
+      "to": "approval",
+      "type": "related_to"
+    },
+    {
+      "from": "delegation",
+      "to": "agent_access",
+      "type": "related_to"
+    },
+    {
+      "from": "exposure_layer",
+      "to": "ambient_delivery",
+      "type": "creates"
+    },
+    {
+      "from": "ambient_delivery",
+      "to": "trust_governance",
+      "type": "governed_by"
+    },
+    {
+      "from": "ambient_delivery",
+      "to": "agent_access",
+      "type": "related_to"
+    },
+    {
+      "from": "ambient_delivery",
+      "to": "mission_control",
+      "type": "related_to"
+    },
+    {
+      "from": "exposure_layer",
+      "to": "agent_access",
+      "type": "creates"
+    },
+    {
+      "from": "agent_access",
+      "to": "agent_readiness",
+      "type": "feeds_into"
+    },
+    {
+      "from": "agent_access",
+      "to": "trust_governance",
+      "type": "governed_by"
+    },
+    {
+      "from": "agent_access",
+      "to": "ambient_delivery",
+      "type": "related_to"
+    },
+    {
+      "from": "agent_access",
+      "to": "mission_control",
+      "type": "related_to"
+    },
+    {
+      "from": "exposure_layer",
+      "to": "mission_control",
+      "type": "creates"
+    },
+    {
+      "from": "mission_control",
+      "to": "trust_governance",
+      "type": "governed_by"
+    },
+    {
+      "from": "mission_control",
+      "to": "ambient_delivery",
+      "type": "related_to"
+    },
+    {
+      "from": "mission_control",
+      "to": "agent_access",
+      "type": "related_to"
+    },
+    {
+      "from": "mission_control",
+      "to": "brain_score",
+      "type": "related_to"
+    },
+    {
+      "from": "atomic_primitives",
+      "to": "knowledge_objects",
+      "type": "feeds_into"
+    },
+    {
+      "from": "atomic_primitives",
+      "to": "core_objects",
+      "type": "feeds_into"
+    },
+    {
+      "from": "atomic_primitives",
+      "to": "trust_governance",
+      "type": "governed_by"
+    },
+    {
+      "from": "atomic_primitives",
+      "to": "actor",
+      "type": "related_to"
+    },
+    {
+      "from": "atomic_primitives",
+      "to": "commitment",
+      "type": "related_to"
+    },
+    {
+      "from": "atomic_primitives",
+      "to": "core_objects",
+      "type": "related_to"
+    },
+    {
+      "from": "atomic_primitives",
+      "to": "core_objects",
+      "type": "creates"
+    },
+    {
+      "from": "core_objects",
+      "to": "operational_constructs",
+      "type": "feeds_into"
+    },
+    {
+      "from": "core_objects",
+      "to": "trust_governance",
+      "type": "governed_by"
+    },
+    {
+      "from": "core_objects",
+      "to": "actor",
+      "type": "related_to"
+    },
+    {
+      "from": "core_objects",
+      "to": "factual_memory",
+      "type": "related_to"
+    },
+    {
+      "from": "core_objects",
+      "to": "operational_constructs",
+      "type": "creates"
+    },
+    {
+      "from": "commitment",
+      "to": "operational_constructs",
+      "type": "creates"
+    },
+    {
+      "from": "operational_constructs",
+      "to": "drift_signal",
+      "type": "feeds_into"
+    },
+    {
+      "from": "operational_constructs",
+      "to": "commitment_memory",
+      "type": "feeds_into"
+    },
+    {
+      "from": "operational_constructs",
+      "to": "trust_governance",
+      "type": "governed_by"
+    },
+    {
+      "from": "operational_constructs",
+      "to": "commitment",
+      "type": "related_to"
+    },
+    {
+      "from": "operational_constructs",
+      "to": "drift_signal",
+      "type": "related_to"
+    }
+  ],
+  "unresolved": [
+    "adaptive_intelligence",
+    "consultant",
+    "trust_governance"
+  ]
+}

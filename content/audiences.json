@@ -1,0 +1,47 @@
+[
+  {
+    "id": "executive",
+    "label": "Executive / Investor / Advisor",
+    "description": "I need to understand the business concept and strategic value.",
+    "icon": "💼",
+    "language": "business value, outcomes, competitive differentiation. No technical terms.",
+    "depth": "overview",
+    "entry_section": "problem"
+  },
+  {
+    "id": "product",
+    "label": "Product Manager / Designer",
+    "description": "I need to understand what it does and how it affects users.",
+    "icon": "🎯",
+    "language": "user experience, product surfaces, what users see and do.",
+    "depth": "overview",
+    "entry_section": "problem"
+  },
+  {
+    "id": "engineer",
+    "label": "Engineer / Technical Builder",
+    "description": "I need to understand the architecture in detail.",
+    "icon": "⚙️",
+    "language": "full technical detail, architecture boundaries, inputs/outputs, lifecycle.",
+    "depth": "full",
+    "entry_section": "problem"
+  },
+  {
+    "id": "new_hire",
+    "label": "New Team Member",
+    "description": "I'm just getting started and want the big picture.",
+    "icon": "👋",
+    "language": "simple analogies, relatable examples, no assumed knowledge.",
+    "depth": "overview",
+    "entry_section": "problem"
+  },
+  {
+    "id": "explorer",
+    "label": "I just want to explore",
+    "description": "Take me to the full system.",
+    "icon": "🗺️",
+    "language": "balanced — plain language with technical detail available on demand.",
+    "depth": "full",
+    "entry_section": "problem"
+  }
+]
